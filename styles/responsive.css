@@ -1,0 +1,35 @@
+@media screen and (max-width: 576px) {
+    body {
+        width: 100%;
+        margin: 50px auto 0;
+    }
+    .list {
+        gap: 0;
+    }
+    .list a{
+        display: none;
+    }
+    .list li {
+        margin-right: 10px;
+    }
+    .navbar{
+        margin: 0px 10px 50px;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .banner-img img {
+        width: 300px;
+    }
+    .banner-content {
+        width: 321px;
+        text-align: center;
+    }
+    .banner-title {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .banner-description {
+        font-size: 14px;
+    }
+}
